@@ -1,0 +1,23 @@
+.dashboard-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: dashed 5px red;
+    gap: 20px;
+}
+
+.main-section{
+    border: dashed 5px red;
+    grid-column: 1 / span 3;
+    min-height: 100px;
+}
+
+.charts-area{
+    border: dashed 5px red;
+    grid-column: 2/ span 3;
+    min-height: 100px;
+}
+.market-info{
+    border: dashed 5px red;
+    grid-column: 3/ span 3;
+    min-height: 100px;
+}
